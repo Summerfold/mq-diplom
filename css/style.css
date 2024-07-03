@@ -39,7 +39,7 @@
   .header {
     position: relative;
     background-color: #000000;
-    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+    background-image: url(../images/banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 27%;
@@ -453,7 +453,7 @@
     height: 48px;
     border: none;
     background-color: #b59f5b;
-    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
+    background-image: url(../svg/search.svg);
     background-size: 18px 18px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -650,7 +650,7 @@
   }
   
   .social-media-item-dribble {
-    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-dribbble.svg");
+    background-image: url(../svg/001-dribbble.svg);
     width: 20px;
     height: 20px;
     background-repeat: no-repeat;
@@ -658,7 +658,7 @@
   }
   
   .social-media-item-pinterest {
-    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-pinterest.svg");
+    background-image: url(../svg/002-pinterest.svg);
     width: 20px;
     height: 20px;
     background-repeat: no-repeat;
@@ -666,7 +666,7 @@
   }
   
   .social-media-item-tumblr {
-    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+    background-image: url(../svg/003-tumblr.svg);
     width: 20px;
     height: 20px;
     background-repeat: no-repeat;
