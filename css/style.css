@@ -363,7 +363,7 @@
     position: absolute;
     top: 14px;
     bottom: 23px;
-    left: 105px;
+    left: 153px;
     width: 66px;
     height: 3px;
     background-color: #e1d9bd;
@@ -475,7 +475,7 @@
     position: relative;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
   }
   
@@ -485,7 +485,7 @@
     display: block;
     top: 14px;
     bottom: 23px;
-    left: 145px;
+    left: 153px;
     width: 66px;
     height: 3px;
     background-color: #e1d9bd;
@@ -1038,6 +1038,14 @@
 
     .tags {
       margin-bottom: 40px;
+    }
+
+    .tags-header {
+      font-size: 16px;
+    }
+
+    .tags-header::after {
+      left: 153px;
     }
 
     .themes-content li {
