@@ -1077,7 +1077,7 @@
     @media (min-width: 641px) and (max-width: 1199px) and (orientation: portrait) {
 
       .header {
-        padding: 83px 0 0 0;
+        padding: 45px 0 0px;
       } 
 
       .logo-nav {
