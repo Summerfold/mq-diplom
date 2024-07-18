@@ -865,7 +865,7 @@
   
     .header {
       background-image: url("../images/banner-mobile.jpg");
-      padding: 28px 0 212px;
+      padding: 28px 0 83px;
       
     }
 
@@ -873,9 +873,6 @@
       padding: 0px 14px;
     }
 
-    .headline {
-      width: 269px;
-    }
 
     .logo {
       width: 100%;
@@ -906,6 +903,7 @@
 
     .menu_button {
       display: block;
+      margin-top: -240px;
   }
 
     .headline {
@@ -913,7 +911,7 @@
       font-size: 26px;
       line-height: 36px;
   
-      margin-top: 31px;
+      margin-top: -45px;
     }
 
     .trends {
@@ -952,7 +950,7 @@
     }
 
     .content-card-trend {
-      margin-top: 80px;
+      margin-top: 24px;
       padding: 25px 20px;
     }
 
