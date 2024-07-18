@@ -73,6 +73,45 @@
     max-width: 180px;
   }
   
+  .menu_button {
+    display: none;
+    width: 25px;
+    height: 20px;
+    position: relative;
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .menu_button:after {
+    bottom: 0;
+  }
+  
+  .menu_button:before {
+    top: 0;
+  }
+  
+  .menu_button:before, .menu_button:after {
+    content: "";
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+  }
+  
+  .menu_button_lable {
+    width: 100%;
+    height: 20%;
+    background-color: #fff;
+    left: 0;
+    position: absolute;
+    top: calc(50% - 10%);
+    text-indent: -9999px;
+  }
+
+
   .headline {
     width: 679px;
     padding: 70px 0 128px 0;
@@ -865,6 +904,10 @@
       display: none;
     }
 
+    .menu_button {
+      display: block;
+  }
+
     .headline {
       width: 328px;
       font-size: 26px;
@@ -1096,6 +1139,10 @@
       .site-navigation-item {
         display: none;
       }
+
+      .menu_button {
+        display: block;
+    }
 
       .headline {
         min-width: 610px;
