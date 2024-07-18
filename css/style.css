@@ -1101,6 +1101,8 @@
         min-width: 610px;
         font-size: 40px;
         line-height: 1.4;
+        padding-top: 81px;
+        padding-bottom: 113px;
  
       }
   
@@ -1146,7 +1148,8 @@
       }
   
       .main-aside {
-        margin-top: 0;
+        margin-top: -27px;
+        margin-right: 32px;
       }
   
       .posts-item {
@@ -1212,7 +1215,7 @@
       }
   
       .posts-image {
-        width: 88%;
+        width: 90%;
         margin-left: 30px;
       }
   
@@ -1255,7 +1258,7 @@
       }
   
       .side-items {
-        padding-bottom: 60px;
+        padding-bottom: 0;
       }
   
       .side-search {
@@ -1263,11 +1266,11 @@
       }
   
       .subscribe {
-        margin-bottom: 40px;
+        margin-bottom: 53px;
       }
   
       .tags {
-        margin-bottom: 40px;
+        margin-bottom: 69px;
       }
   
       .tags-header {
